@@ -56,9 +56,30 @@ BP_SEGY_PATH = "./Model/vel_z6.25m_x12.5m_exact.segy"
 
 *If you do not have this file, the BP-related figures will not run.*
 
+---
+## 4. General notebook structure and naming
 
+Across the notebook, code blocks follow a consistent pattern. You will typically see a header like:
 
+```python
+# -----------------------------
+# FIGURE X: Brief description
+# -----------------------------
 
+```
+
+Followed by definitions of:
+
+* **Global controls:** (e.g., `DTYPE`, `COMPONENT`, `SPONGE_NB`, `T_MAX`, etc.)
+* **Model building functions:** (e.g., `create_layers`, `build_layered_salt_lens_model`, `load_bp_subsection`)
+* **Numerical kernels:** (`update_vx_*`, `update_vz_*`, `update_p_*` compiled with Numba)
+* **Post-processing and plotting functions**
+* **A driver function:** `run_figureX(...)` for that specific figure
+* **Execution block:** A small block at the end that actually calls the driver and saves the figure.
+
+Where possible, the same functions are reused between figures (e.g., FD kernels, Ricker wavelet, sponge boundaries, GA coefficients). Therefore, it is highly recommended to **run the notebook top-to-bottom** to ensure all definitions exist before executing later figures.
+
+---
 
 
 
