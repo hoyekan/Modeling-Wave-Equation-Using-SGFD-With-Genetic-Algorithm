@@ -1,0 +1,49 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# ==========================================
+# Jupyter Notebook & Google Colab
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Large Data Files (Velocity Models)
+# ==========================================
+*.segy
+*.sgy
+*.dat
+
+# ==========================================
+# Cached Simulation Data (Heavy)
+# ==========================================
+*.npz
+fig*_outputs/
+
+# ==========================================
+# Generated Figures and Animations
+# ==========================================
+# Note: If you want to commit specific final 
+# figures to show in your README, either comment 
+# these out or force add them using `git add -f`
+*.png
+*.html
+*.mp4
+*.gif
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
