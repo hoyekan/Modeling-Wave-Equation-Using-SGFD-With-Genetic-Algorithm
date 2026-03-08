@@ -1,0 +1,12 @@
+# Core scientific computing and plotting
+numpy
+matplotlib
+
+# High-performance JIT compilation
+numba
+
+# Seismic data input/output
+segyio
+
+# Interactive computing (required for IPython.display in Colab/Jupyter)
+ipython
