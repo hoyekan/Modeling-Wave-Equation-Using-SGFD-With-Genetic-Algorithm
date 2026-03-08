@@ -19,7 +19,7 @@ The notebook is designed so that anyone can open it in Google Colab and reproduc
 
 ## 2. Software and package requirements
 You can run this notebook either:
-* In **Google Colab** (recommended)
+* In **Google Colab** or **Jupyter Notebook**
 * Locally in a Python environment (e.g., `conda` or `venv`)
 
 **Required Python packages:**
