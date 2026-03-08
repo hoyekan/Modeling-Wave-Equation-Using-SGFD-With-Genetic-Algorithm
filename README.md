@@ -30,7 +30,7 @@ You can run this notebook either:
 * `pathlib` (standard library, used for output folders)
 * `IPython.display` (for animations in notebooks)
 
-If you are using Google Colab, you will likely need to install `segyio` and `numba` explicitly. You can do this in the first cell of your notebook:
+Make sure to install `segyio` and `numba`. You can do this in the first cell of your notebook:
 ```bash
 !pip install segyio numba
 ```
