@@ -17,9 +17,9 @@ env/
 # ==========================================
 # Large Data Files (Velocity Models)
 # ==========================================
-*.segy
-*.sgy
-*.dat
+# *.segy
+# *.sgy
+# *.dat
 
 # ==========================================
 # Cached Simulation Data (Heavy)
