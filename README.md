@@ -35,7 +35,26 @@ If you are using Google Colab, you will likely need to install `segyio` and `num
 !pip install segyio numba
 ```
 
+---
+## 3. External data required (BP velocity model)
 
+You can get the `vel_z6.25m_x12.5m_exact.segy` file from the Model folder.
+
+Several figures (8, 10, 12, 14) rely on the BP salt-dome velocity model stored in this SEGY file. The expected path in the notebook is:
+
+```python
+BP_SEGY_PATH = "./Model/vel_z6.25m_x12.5m_exact.segy"
+```
+
+**To make this work in Colab:**
+
+1. Upload the SEGY file `vel_z6.25m_x12.5m_exact.segy` to Colab, into the `/Model/` directory.
+* *Tip: In Colab, use the left sidebar → "Files" → "Upload".*
+
+2. Ensure the filename and path exactly match `BP_SEGY_PATH`.
+* *Note: If you change the filename or location, update `BP_SEGY_PATH` in all relevant cells (Figures 8, 10, 12, 14).*
+
+*If you do not have this file, the BP-related figures will not run.*
 
 
 
