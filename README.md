@@ -1,7 +1,5 @@
 # Genetic Algorithm (GA) Optimized Finite-Difference (FD) Seismic Modeling
 
-# GA-Optimized FD Seismic Modeling (Figures 1–14)
-
 ## 1. Purpose of this notebook
 This project implements and tests high-order, GA-optimized staggered-grid finite-difference (FD) schemes for 2D acoustic wave propagation. 
 
