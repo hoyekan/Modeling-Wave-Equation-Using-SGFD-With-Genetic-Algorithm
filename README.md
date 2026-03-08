@@ -1,0 +1,1 @@
+# Modeling-Wave-Equation-Using-SGFD-With-Genetic-Algorithm
