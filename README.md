@@ -33,6 +33,7 @@ You can run this notebook either:
 If you are using Google Colab, you will likely need to install `segyio` and `numba` explicitly. You can do this in the first cell of your notebook:
 ```bash
 !pip install segyio numba
+```
 
 
 
