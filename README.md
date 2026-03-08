@@ -1,1 +1,1 @@
-# Modeling-Wave-Equation-Using-SGFD-Optimized-With-Genetic-Algorithm
+# Genetic Algorithm (GA) Optimized Finite-Difference (FD) Seismic Modeling
