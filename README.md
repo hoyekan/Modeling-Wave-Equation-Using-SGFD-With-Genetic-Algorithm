@@ -191,7 +191,7 @@ For Figures 11, 12, and 14, animations are built using `matplotlib.animation.Fun
 
 1. Open the notebook in Google Colab.
 2. Install necessary packages in the first cell (`!pip install segyio numba`).
-3. Upload the SEGY file `vel_z6.25m_x12.5m_exact.segy` directly to `/content/`.
+3. Upload the SEGY file `vel_z6.25m_x12.5m_exact.segy` directly to `/Model/`.
 4. Run all setup cells sequentially (coefficients, GA tables, Numba kernels, helper functions).
 5. Run the figures in order.
 * *If you only care about the wavefield modeling, you can skip the dispersion/stability charts (Figures 1–7) and start directly from Figure 8.*
@@ -210,7 +210,7 @@ For Figures 11, 12, and 14, animations are built using `matplotlib.animation.Fun
 
 * **`FileNotFoundError` for SEGY**
 * **Cause:** The SEGY path is incorrect, or the file has not finished uploading to Colab.
-* **Fix:** Ensure the file is completely uploaded to `/content/` or manually adjust `BP_SEGY_PATH` to point to the correct directory.
+* **Fix:** Ensure the file is completely uploaded to `/Model/` or manually adjust `BP_SEGY_PATH` to point to the correct directory.
 
 
 * **Colab crashes / "Out of Memory"**
