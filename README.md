@@ -33,3 +33,48 @@ You can run this notebook either:
 If you are using Google Colab, you will likely need to install `segyio` and `numba` explicitly. You can do this in the first cell of your notebook:
 ```bash
 !pip install segyio numba
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+## References
+
+- Finkelstein, B., and R. Kastner, 2006, *Finite-difference time domain dispersion reduction schemes*: Journal of Computational Physics, **221**(1), 422–438.
+
+- Igel, H., B. Riollet, and P. Mora, 1992, *Accuracy of staggered 3-D finite-difference grids for anisotropic wave propagation*: SEG Technical Program Expanded Abstracts, 1244–1246.
+
+- Kelly, K. R., R. W. Ward, S. Treitel, and R. M. Alford, 1976, *Synthetic seismograms: A finite-difference approach*: GEOPHYSICS, **41**(1), 2–27.
+
+- Liu, Y., and M. K. Sen, 2011, *Scalar wave equation modeling with time-space domain dispersion relation-based staggered-grid finite-difference schemes*: Bulletin of the Seismological Society of America, **101**(1), 141–159.
+
+- Vanga, M., and M. Ojha, 2025, *Modeling the seismic wave equation using a staggered grid finite-difference method optimized with a genetic algorithm*: Journal of Seismic Exploration, **34**(2), 1–13.
+
+
+
+
+
+
+
+
+
+
+
+
+
