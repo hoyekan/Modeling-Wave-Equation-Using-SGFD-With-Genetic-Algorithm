@@ -13,7 +13,7 @@ The notebook:
   * GA-optimized 12th-order (velocity range table)
 * Produces shot gathers, wavefield snapshots, and animations (Figures 9–12, 14).
 
-The notebook is designed so that anyone can open it in Google Colab and reproduce all figures from 1 to 14 with minimal manual editing.
+The notebook is designed so that anyone can open it in Colab or Jupyter NB and reproduce all figures from 1 to 14 with minimal manual editing.
 
 ---
 
